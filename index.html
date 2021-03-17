@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>
+        Photo Gallery
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                
+                <img src="Black%20panther.jpg" width="200" height="200">
+                <img src="hulk.jpg" width="200" height="200">
+                <img src="Thanos.jpg" width="200" height="200">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="Gamora.jpg" width="200" height="200">
+                <img src="iron-man-artist-image.webp" width="200" height="200">
+                <img src="avengersinfinitywar_lob_log_03.png" width="200" height="200">
+            </div>
+        </div>
+        <section id="slides">
+            <h1>Sliding Gallery</h1>
+        <div id="myCarousel" class="carousel slide">
+
+        <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0"
+            class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>        
+            </ol>
+            <div class="carousel-inner">
+            <div class="item active">
+                <img src="hulk.jpg" class="img-responsive" style="width:100%"> 
+                <div class="carousel-caption">
+                <h3>Hulk</h3>
+                </div>
+            </div>
+                <div class="item">
+                <img src="Black%20panther.jpg" class="img-responsive" style="width:100%"> 
+                <div class="carousel-caption">
+                <h3>Blackpanther</h3>
+                </div>
+            </div>
+                <div class="item">
+                <img src="Gamora.jpg" class="img-responsive" style="width:100%"> 
+                <div class="carousel-caption">
+                <h3>Gamora</h3>
+                </div>
+            </div>
+             <div class="item">
+                <img src="image.jpg" class="img-responsive" style="width:100%" > 
+                <div class="carousel-caption">
+                <h3>Captain America</h3> 
+                </div>
+            </div>
+                 <div class="item">
+                <img src="iron-man-artist-image.webp" class="img-responsive"   style="width:100%"> 
+                <div class="carousel-caption">
+                <h3>ironman</h3>
+                     </div>
+                </div>
+                     <div class="item">
+                <img src="Thanos.jpg" class="img-responsive"  style="width:100%"> 
+                <div class="carousel-caption">
+                <h3>Thanos</h3>
+            </div>
+                </div>
+            </div>
+         <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    
+  </a>
+        </div>
+            </section>
+            
+    </div>
+</body>
+
+</html>
